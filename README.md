@@ -1,4 +1,4 @@
-# 🛡️ Prime Stack — Professional Authentication System
+#  Prime Stack — Professional Authentication System
 
 A full-stack Node.js authentication system with **email/password**, **Google OAuth 2.0**, and **mobile phone OTP** verification — wrapped in a stunning glassmorphism UI.
 
@@ -6,7 +6,7 @@ A full-stack Node.js authentication system with **email/password**, **Google OAu
 ![Express](https://img.shields.io/badge/Express-4.x-000000?style=flat-square&logo=express)
 ![MongoDB](https://img.shields.io/badge/MongoDB-8.x-47A248?style=flat-square&logo=mongodb)
 
-## ✨ Features
+##  Features
 
 - **Email/Password Authentication** — Register & login with bcrypt-hashed passwords
 - **Google OAuth 2.0** — One-click Google sign-in via Passport.js
@@ -15,7 +15,7 @@ A full-stack Node.js authentication system with **email/password**, **Google OAu
 - **Premium UI** — Glassmorphism design, animated backgrounds, micro-animations
 - **Security Hardened** — Helmet, CORS, rate limiting, input validation
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -32,22 +32,6 @@ npm install
 
 Edit `.env` with your settings:
 
-```env
-# Required
-MONGO_URI=mongodb://localhost:27017/prime-stack
-JWT_SECRET=your-super-secret-key
-JWT_REFRESH_SECRET=your-refresh-secret-key
-
-# Google OAuth (optional — get from Google Cloud Console)
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-GOOGLE_CALLBACK_URL=http://localhost:3000/api/google/callback
-
-# Twilio SMS (optional — dev mode works without it)
-TWILIO_ACCOUNT_SID=your-twilio-sid
-TWILIO_AUTH_TOKEN=your-twilio-auth-token
-TWILIO_VERIFY_SID=your-twilio-verify-sid
-```
 
 ### 3. Start the Server
 
@@ -58,17 +42,6 @@ npm run dev
 # Production
 npm start
 ```
-
-### 4. Open in Browser
-
-Navigate to **http://localhost:3000**
-
-## 🧪 Dev Mode
-
-In development mode (`NODE_ENV=development`):
-
-- **Phone OTP**: Always use code `123456` (logged to console)
-- **Google OAuth**: Requires real credentials from [Google Cloud Console](https://console.cloud.google.com/)
 
 ## 📡 API Reference
 
